@@ -1,0 +1,627 @@
+{
+  "summary": {
+    "source": "C:\\Users\\10084\\Desktop\\fsdownload\\GPO",
+    "total_files": 314,
+    "total_size_bytes": 665159689
+  },
+  "by_extension": {
+    ".cfg": 2,
+    ".gif": 1,
+    ".ipynb": 4,
+    ".jpg": 2,
+    ".json": 23,
+    ".md": 7,
+    ".pkl": 31,
+    ".png": 7,
+    ".pt": 49,
+    ".py": 152,
+    ".sh": 6,
+    ".toml": 1,
+    ".txt": 15,
+    ".yaml": 10,
+    "[no extension]": 4
+  },
+  "by_category": {
+    "code": 158,
+    "docs": 55,
+    "model": 80,
+    "other": 21
+  },
+  "notable_files": [
+    {
+      "path": "evaluate_FSS.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 9413
+    },
+    {
+      "path": "evaluate_VOC.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 10158
+    },
+    {
+      "path": "evaluate_segmentation.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6631
+    },
+    {
+      "path": "feature_matching\\dinov2\\run\\train\\train.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 1665
+    },
+    {
+      "path": "feature_matching\\dinov2\\train\\train.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 10681
+    },
+    {
+      "path": "feature_matching\\test.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 3786
+    },
+    {
+      "path": "feature_matching\\train.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 10681
+    },
+    {
+      "path": "test.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 934
+    },
+    {
+      "path": "train_DQN.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 15731
+    },
+    {
+      "path": "train\\20250417_2229\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 47838
+    },
+    {
+      "path": "train\\20250420_1947\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 15433
+    },
+    {
+      "path": "train\\20250420_2053\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 10742
+    },
+    {
+      "path": "train\\20250420_2054\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 31745
+    },
+    {
+      "path": "train\\20250420_2316\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 31185
+    },
+    {
+      "path": "train\\20250422_0908\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 276883
+    },
+    {
+      "path": "train\\20260327_1907\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 276411
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 277707
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 276737
+    },
+    {
+      "path": "train\\TEM_500\\episode_results\\training_log.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 143346
+    },
+    {
+      "path": "model\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "model\\box_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081532
+    },
+    {
+      "path": "model\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "model\\node_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650510
+    },
+    {
+      "path": "train\\20250417_2229\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 15231075
+    },
+    {
+      "path": "train\\20250417_2229\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250417_2229\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\20250420_1947\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\20250420_1947\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250420_1947\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\20250420_2053\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\20250420_2053\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250420_2053\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\20250420_2054\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\20250420_2054\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250420_2054\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\20250420_2316\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 3635805
+    },
+    {
+      "path": "train\\20250420_2316\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250420_2316\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 4651210
+    },
+    {
+      "path": "train\\20250422_0908\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\20250422_0908\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\20250422_0908\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\20250422_0908\\final_models\\box_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081532
+    },
+    {
+      "path": "train\\20250422_0908\\final_models\\final_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929498
+    },
+    {
+      "path": "train\\20250422_0908\\final_models\\node_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650510
+    },
+    {
+      "path": "train\\20260327_1907\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34928915
+    },
+    {
+      "path": "train\\20260327_1907\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081067
+    },
+    {
+      "path": "train\\20260327_1907\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650043
+    },
+    {
+      "path": "train\\20260327_1907\\final_models\\box_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081083
+    },
+    {
+      "path": "train\\20260327_1907\\final_models\\final_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929057
+    },
+    {
+      "path": "train\\20260327_1907\\final_models\\node_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650059
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 26466040
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\final_models\\box_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081532
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\final_models\\final_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929498
+    },
+    {
+      "path": "train\\Data4_1000_04181513\\final_models\\node_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650510
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\final_models\\box_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081532
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\final_models\\final_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929498
+    },
+    {
+      "path": "train\\Data4_1000_04191229\\final_models\\node_final_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650510
+    },
+    {
+      "path": "train\\TEM_500\\best_models\\best_model.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 34929354
+    },
+    {
+      "path": "train\\TEM_500\\best_models\\box_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 1081514
+    },
+    {
+      "path": "train\\TEM_500\\best_models\\node_best_model.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 7650492
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_1.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1539485
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_2.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1690
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_3.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 2394
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_3.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1498
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_4.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 7468140
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_4.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 2458
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_6.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 2906
+    },
+    {
+      "path": "train_data\\FSS-1000_vineSnake_6.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1690
+    },
+    {
+      "path": "train_data\\ISIC_10_0000004.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1675
+    },
+    {
+      "path": "train_data\\ISIC_10_0000006.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1739
+    },
+    {
+      "path": "train_data\\ISIC_10_0000007.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 11939191
+    },
+    {
+      "path": "train_data\\ISIC_10_0000008.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 4555
+    },
+    {
+      "path": "train_data\\ISIC_10_0000008.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1675
+    },
+    {
+      "path": "train_data\\ISIC_10_0000010.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 3403
+    },
+    {
+      "path": "train_data\\ISIC_10_0000011.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 4619
+    },
+    {
+      "path": "train_data\\ISIC_10_0000011.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1803
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000001.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1489
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000002.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1809
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000003.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1489
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000004.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 4305
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000004.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1425
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000005.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 3537
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000006.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 10257
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000007.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 19674032
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000008.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 3409
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000008.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1617
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000009.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 19674032
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000009.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1425
+    },
+    {
+      "path": "train_data\\Kvasir_10_0000010.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1681
+    },
+    {
+      "path": "train_data\\VOC_cat_002.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1663
+    },
+    {
+      "path": "train_data\\VOC_cat_002.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1471
+    },
+    {
+      "path": "train_data\\VOC_cat_004.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1087
+    },
+    {
+      "path": "train_data\\VOC_cat_005.jpg_features.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 19673950
+    },
+    {
+      "path": "train_data\\VOC_cat_009.jpg_initial_indices_neg.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1727
+    },
+    {
+      "path": "train_data\\VOC_cat_010.jpg_initial_indices_pos.pt",
+      "category": "model",
+      "extension": ".pt",
+      "size_bytes": 1343
+    }
+  ],
+  "sensitive_hits": []
+}

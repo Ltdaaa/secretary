@@ -1,0 +1,10 @@
+{
+  "project": "gpo-analysis",
+  "goal": "Deliver a working AI project for gpo-analysis.",
+  "entry": "index.html",
+  "runtime": "static-browser",
+  "requires_api_key": false,
+  "requires_backend": false,
+  "readiness_score": 85,
+  "model_route": "Product workflow and data acquisition first"
+}

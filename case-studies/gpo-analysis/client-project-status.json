@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "entry": "client-project/index.html",
+  "files": [
+    "client-project/index.html",
+    "client-project/README.md",
+    "client-project/DEPLOYMENT.md",
+    "client-project/ACCEPTANCE.md",
+    "client-project/project-manifest.json",
+    "client-project/tests/smoke_test.py"
+  ],
+  "smoke_test": {
+    "command": "C:\\Users\\10084\\anaconda3\\python.exe tests/smoke_test.py",
+    "returncode": 0,
+    "stdout": "client project smoke test passed",
+    "stderr": ""
+  }
+}

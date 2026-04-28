@@ -1,0 +1,66 @@
+[
+  {
+    "department": "Product",
+    "owner": "Product Manager Agent",
+    "action": "Convert the target workflow into demo acceptance criteria and non-goals.",
+    "evidence": "project-brief.yaml, 02-product-requirements.md",
+    "acceptance": "A judge can run one primary workflow end to end without reading source code.",
+    "priority": "P0"
+  },
+  {
+    "department": "Technology",
+    "owner": "Chief Architect Agent",
+    "action": "Keep the browser demo and local Python runner as separate, reproducible execution paths.",
+    "evidence": "site/index.html, scripts/company_os.py",
+    "acceptance": "Static website works without API keys; local runner writes machine-readable evidence files.",
+    "priority": "P0"
+  },
+  {
+    "department": "Data",
+    "owner": "Data Governance Agent",
+    "action": "Create a schema/data-card update from profiled data and mark missing label or text columns.",
+    "evidence": "0 profiled data files",
+    "acceptance": "Text column, label column, empty counts, and split strategy are explicit before training claims.",
+    "priority": "P1"
+  },
+  {
+    "department": "AI Platform",
+    "owner": "Model Analyst Agent",
+    "action": "Execute the recommended route: Product workflow and data acquisition first.",
+    "evidence": "No clearly profiled text dataset was found.",
+    "acceptance": "Baseline choice, metric, failure mode, and rollback rule are written before fine-tuning.",
+    "priority": "P0"
+  },
+  {
+    "department": "AI Platform",
+    "owner": "Training Architect Agent",
+    "action": "Turn training into an experiment matrix with data version, command, metric, budget, and rollback.",
+    "evidence": "Training scripts detected: True",
+    "acceptance": "Every experiment row has a reproducible command or is explicitly marked as future work.",
+    "priority": "P1"
+  },
+  {
+    "department": "MLOps",
+    "owner": "MLOps Platform Agent",
+    "action": "Register detected model artifacts and connect them to configs, metrics, and release status.",
+    "evidence": "Model assets detected: True",
+    "acceptance": "Each model/checkpoint has owner, source, metric, version, and rollback notes.",
+    "priority": "P1"
+  },
+  {
+    "department": "Security",
+    "owner": "Legal & Compliance Counsel",
+    "action": "Review and remove secret patterns or private files before submission.",
+    "evidence": "Sensitive hits: none",
+    "acceptance": "Submission package contains no auth.json, .codex folder, API key, private key, or private dataset.",
+    "priority": "P1"
+  },
+  {
+    "department": "Submission",
+    "owner": "Judge Summary Agent",
+    "action": "Prepare the judge walkthrough around the website, GPO case, run-report, readiness score, and work orders.",
+    "evidence": "Readiness: 85/100 (strong)",
+    "acceptance": "A 3-minute path shows input, multi-agent work, real evidence, and downloadable outputs.",
+    "priority": "P0"
+  }
+]

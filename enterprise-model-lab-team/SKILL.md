@@ -1,0 +1,236 @@
+---
+name: enterprise-model-lab-team
+description: Use when designing, training, fine-tuning, evaluating, operating, or commercializing AI products through a Fortune-500-style multi-agent technology company for hackathons, enterprise AI projects, model governance, product strategy, growth operations, and reproducible ML delivery.
+metadata:
+  openclaw:
+    emoji: "AI"
+    always: false
+    requires:
+      bins: ["python"]
+---
+
+# Enterprise Model Lab Team
+
+## Overview
+
+Act as a Fortune-500-style AI technology company, not a single model team. The organization converts a market or research goal into a complete AI product delivery package: strategy, product management, user research, data intelligence, data governance, model analysis, training design, fine-tuning design, evaluation, MLOps, safety, legal, finance, growth operations, customer success, agent engineering, and executive demo.
+
+Core rule: every executive function and specialist team must produce a concrete artifact. No artifact, no progress claim.
+
+## When to Use
+
+Use this skill for:
+
+- Building a multi-agent AI company team for a hackathon.
+- Turning an AI model idea into a product, business, and technical delivery plan.
+- Designing an LLM, embedding model, classifier, topic model, safety model, or agent platform.
+- Comparing foundation models before training or fine-tuning.
+- Planning SFT, LoRA, DPO, RLAIF, continued pretraining, evaluation, MLOps, operations, and launch.
+- Creating judge-facing evidence that looks like a professional technology company.
+
+Do not use this skill to claim a model has been trained unless training logs, data versions, metrics, and reproducible commands exist.
+
+## Company Operating Model
+
+The team works as a company with five layers:
+
+| Layer | Purpose | Key Question |
+| --- | --- | --- |
+| Executive Command | Strategy, priority, resources, risk, accountability | Should we build this, and what must be true for it to win? |
+| Product & Market | Users, product requirements, GTM, operations, customer success | Who needs it, why now, and how does it create value? |
+| Technology Engineering | Architecture, web/app engineering, APIs, platform reliability | Can users run this as a real product? |
+| AI R&D Platform | Data, model, training, fine-tuning, evaluation, MLOps, safety | Can we build it reliably and prove it works? |
+| Growth, Media & Business | Operations, media, sales, partnerships, customer success | Can this reach users and become a business? |
+| People & Governance | Talent, project governance, operating cadence | Can the company execute reliably? |
+| Delivery & Story | Agent productization, demo, dashboard, judge narrative | Can users and judges understand, run, and trust it? |
+
+## Intake Contract
+
+Before planning, collect or infer:
+
+| Field | Required Decision |
+| --- | --- |
+| Goal | What product or model system the company must deliver |
+| Market | Users, buyer, pain point, urgency, competitors |
+| Product | Core workflow, must-have features, acceptance criteria |
+| Data | Existing data, missing data, license limits |
+| Base models | Candidate closed/open/local models |
+| Compute | API budget, GPU, CPU-only fallback |
+| Metrics | Product, model, safety, cost, latency, and adoption targets |
+| Operations | Launch plan, onboarding, support, feedback loop |
+| Finance | API, GPU, storage, engineering, and opportunity costs |
+| Legal/Safety | Privacy, copyright, misuse, bias, domain risks |
+| Deadline | Demo date and must-have deliverables |
+
+If information is missing, state assumptions explicitly and continue with a conservative default.
+
+## Team Roles
+
+| Agent | Corporate Function | Responsibility | Output Artifact |
+| --- | --- | --- | --- |
+| CEO Strategy Commander | Executive | Vision, strategic bet, company-level tradeoffs | `00-company-charter.md` |
+| CTO AI Officer | Executive/Technology | Technical north star and architecture governance | `06-model-selection.md` |
+| COO Program Officer | Operations | Milestones, owners, operating cadence, blockers | `18-executive-dashboard.md` |
+| CFO Resource Analyst | Finance | API/GPU/storage/team budget and ROI assumptions | `15-finance-resource-plan.md` |
+| Legal & Compliance Counsel | Legal | Privacy, copyright, data license, regulatory review | `16-legal-compliance-review.md` |
+| Product Manager Agent | Product | PRD, roadmap, feature priority, acceptance criteria | `02-product-requirements.md` |
+| User Research Agent | Research | Personas, jobs-to-be-done, pain points, validation plan | `03-user-research.md` |
+| UX Design Agent | Design | UX flow, information architecture, accessibility, demo usability | `23-ux-design-plan.md` |
+| Market Intelligence Agent | Strategy | Market opportunity, competitor map, positioning | `01-market-opportunity.md` |
+| Growth & Operations Agent | Operations/Growth | Launch, activation, retention, usage analytics | `13-growth-operations-plan.md` |
+| Media & Communications Agent | Media/PR | Press narrative, social content, public communication, community updates | `25-media-communications-plan.md` |
+| Sales & Business Development Agent | Sales/BD | Buyer map, sales motion, pricing hypothesis, pilot conversion | `26-sales-business-plan.md` |
+| Partnerships & Ecosystem Agent | Partnerships | Tech partners, data partners, channels, ecosystem plays | `27-partnerships-ecosystem-plan.md` |
+| Customer Success Agent | GTM/Support | Onboarding, support workflow, feedback collection | `14-customer-success-plan.md` |
+| HR & Talent Agent | People | Hiring plan, capability gaps, role coverage, team rituals | `28-hr-talent-plan.md` |
+| PMO Governance Agent | Governance | Roadmap, cadence, risk tracking, decision governance | `29-pmo-governance-plan.md` |
+| Chief Architect Agent | Technology Engineering | System architecture, module boundaries, integration contracts | `20-technology-architecture.md` |
+| Full-stack Product Engineer Agent | Technology Engineering | Web app, API surface, frontend/backend handoff, user workflow | `21-product-engineering-plan.md` |
+| API Integration Engineer Agent | Technology Engineering | APIs, local tools, data connectors, integration contracts | `24-api-integration-plan.md` |
+| Platform Reliability Agent | Technology Engineering | Runtime reliability, observability, deployment readiness | `22-platform-reliability-plan.md` |
+| Data Intelligence Agent | Data | Data search, source map, license, field availability | `04-data-map.md` |
+| Data Governance Agent | Data | Schema, cleaning, labeling, splits, data quality | `05-data-card.md` |
+| Model Analyst Agent | AI R&D | Baseline and foundation model comparison | `06-model-selection.md` |
+| Training Architect Agent | AI R&D | Training route, experiment matrix, compute budget | `07-training-design.md` |
+| Fine-tuning Engineer Agent | AI R&D | SFT/LoRA/DPO/RLAIF strategy and hyperparameters | `08-finetune-plan.md` |
+| Evaluation & Test Agent | Quality | Metrics, test sets, red-team, regression gates | `09-evaluation-protocol.md` |
+| MLOps Platform Agent | Platform | Deployment, versioning, monitoring, rollback | `10-mlops-release-plan.md` |
+| Safety & Responsible AI Agent | Trust & Safety | Misuse, bias, harmful output, model safety controls | `11-risk-register.md` |
+| Agent Engineer Agent | Engineering | Skill, CLI, service interface, automation | `12-agent-product-spec.md` |
+| Brand & Demo Agent | Marketing/Story | Brand narrative, website copy, demo script, judge Q&A | `17-brand-demo-playbook.md` |
+| Executive Dashboard Agent | Leadership | KPI dashboard and board-level summary | `18-executive-dashboard.md` |
+| Judge Summary Agent | Submission | Final submission story and proof points | `19-judge-summary.md` |
+
+## Operating Workflow
+
+1. **Company Charter:** CEO Strategy Commander defines mission, market bet, success metrics, and constraints.
+2. **Market Opportunity:** Market Intelligence Agent maps users, competitors, positioning, and why now.
+3. **Product Definition:** Product Manager Agent writes PRD, roadmap, acceptance criteria, and demo scope.
+4. **User Research:** User Research Agent defines personas, scenarios, pain points, and validation tasks.
+5. **Technology Architecture:** Chief Architect Agent defines boundaries, components, APIs, and integration contracts.
+6. **Product Engineering:** Full-stack Product Engineer Agent turns PRD into a web/app/API implementation plan.
+7. **Platform Reliability:** Platform Reliability Agent defines deployment, observability, runtime reliability, and rollback.
+8. **Data Search:** Data Intelligence Agent creates a source table with license, quality, fields, volume, and risk.
+9. **Data Governance:** Data Governance Agent defines schema, cleaning, label taxonomy, splits, and data-card fields.
+10. **Model Analysis:** Model Analyst Agent compares at least three routes: prompt-only/API, open-source fine-tune, and smaller task model.
+11. **Training Design:** Training Architect Agent creates an experiment matrix with baseline, ablation, budget, expected failure modes, and rollback.
+12. **Fine-tune Design:** Fine-tuning Engineer Agent chooses SFT/LoRA/DPO/RLAIF only when it beats retrieval or prompting on value, cost, privacy, or quality.
+13. **Evaluation:** Evaluation & Test Agent defines automatic metrics, human rubric, red-team set, regression suite, and release thresholds.
+14. **MLOps:** MLOps Platform Agent defines model registry, versioning, deployment, monitoring, incident response, and rollback.
+15. **Risk Gate:** Safety & Responsible AI Agent and Legal & Compliance Counsel write risks and mitigations before release claims.
+16. **Operations:** Growth, Customer Success, and CFO Agents define adoption, support, feedback loops, and resource plan.
+17. **Productization:** Agent Engineer Agent packages the result into a runnable Skill or tool.
+18. **Executive Demo:** Brand & Demo Agent and Judge Summary Agent create a 3-minute demo, 10-minute technical walkthrough, and judge Q&A.
+
+## Quality Gates
+
+| Gate | Requirement |
+| --- | --- |
+| Strategy gate | Charter includes target user, strategic reason, success metric, and constraint |
+| Product gate | PRD includes user workflow, feature priority, acceptance criteria, and non-goals |
+| Market gate | Competitor and positioning are explicit |
+| Technology gate | Architecture, API/user workflow, reliability, and deployment plan exist |
+| Data gate | Data card includes source, license, schema, split, quality risks |
+| Baseline gate | A baseline exists before training or fine-tuning is proposed |
+| Training gate | Experiment matrix includes metric, command, budget, and rollback |
+| Fine-tune gate | Fine-tuning has a reason stronger than "because we can" |
+| Evaluation gate | Metrics include task quality, robustness, safety, cost, latency |
+| MLOps gate | Release plan includes versioning, monitoring, rollback, and incident owner |
+| Safety/legal gate | High-risk items have owner, mitigation, and retest condition |
+| Operations gate | Launch, onboarding, analytics, and support loop exist |
+| Demo gate | A non-expert judge can see input, process, output, and value |
+
+## Output Package
+
+Create this structure for each project:
+
+```text
+model-lab-delivery/
+  project-brief.yaml
+  delivery-board.md
+  evaluation-rubric.md
+  00-company-charter.md
+  01-market-opportunity.md
+  02-product-requirements.md
+  03-user-research.md
+  23-ux-design-plan.md
+  20-technology-architecture.md
+  21-product-engineering-plan.md
+  22-platform-reliability-plan.md
+  24-api-integration-plan.md
+  04-data-map.md
+  05-data-card.md
+  06-model-selection.md
+  07-training-design.md
+  08-finetune-plan.md
+  09-evaluation-protocol.md
+  10-mlops-release-plan.md
+  11-risk-register.md
+  12-agent-product-spec.md
+  13-growth-operations-plan.md
+  25-media-communications-plan.md
+  26-sales-business-plan.md
+  27-partnerships-ecosystem-plan.md
+  14-customer-success-plan.md
+  28-hr-talent-plan.md
+  29-pmo-governance-plan.md
+  15-finance-resource-plan.md
+  16-legal-compliance-review.md
+  17-brand-demo-playbook.md
+  18-executive-dashboard.md
+  19-judge-summary.md
+```
+
+## Quick Start
+
+From this skill directory:
+
+```bash
+python scripts/create_workspace.py --name psych-safety-ai-company --goal "Build a Fortune-500-style AI company team for designing, training, evaluating, launching, and operating a psychological prompt safety model product."
+```
+
+Then open the generated `project-brief.yaml` and fill missing fields. Use the company role table above to produce the numbered artifacts in order.
+
+To make the company team do real work on a local project, run:
+
+```bash
+python scripts/company_os.py --workspace model-lab-delivery/psych-safety-ai-company --source /path/to/project
+```
+
+This scans code, docs, data, and model assets; profiles CSV/spreadsheet data; recommends a model route; computes readiness; writes `asset-inventory.json`, `readiness-score.json`, `action-plan.json`, `work-orders.md`, `execution-status.json`, `execution-log.md`, `executed-work/`, `client-project-status.json`, `client-project/`, and `run-report.md`; and updates key company artifacts with evidence. The work orders are not just listed: they are executed into deterministic department-level evidence files, then packaged into a runnable client-facing project with README, deployment guide, acceptance checklist, manifest, and smoke test.
+
+For the judge-facing website, use `tests/validate_site.py` for static feature coverage and `tests/validate_site_runtime.js` for runtime proof that the page script can start the 31-Agent workflow, parse an uploaded CSV, render self-checks, generate downloads, and navigate to the GPO case. Before upload, run `tests/validate_submission_package.py` against the final `submission-ready` folder and ZIP to check required files, links, mojibake, and secret exclusions.
+
+For a judge-facing reference scenario, see `examples/psych-safety-model-lab.md`.
+
+## Default Champion Demo Scenario
+
+If the user does not provide a scenario, use:
+
+```text
+Build a Fortune-500-style AI technology company team that designs, trains, evaluates, launches, and operates a psychological prompt safety model product. The company must cover strategy, product management, user research, data, model training, fine-tuning, testing, MLOps, safety, legal, finance, growth operations, customer success, agent engineering, and judge-facing demo delivery.
+```
+
+This scenario is strong because it combines product strategy, model training, safety, evaluation, operations, and agent engineering in one company-level workflow.
+
+## Common Mistakes
+
+| Mistake | Correction |
+| --- | --- |
+| Creating many agents with no outputs | Require one artifact per agent |
+| Building only model R&D | Add product, market, operations, finance, legal, and customer success |
+| Starting with fine-tuning | Start with users, data, baseline, and metrics |
+| Claiming "enterprise grade" by tone only | Show gates, owners, artifacts, and evidence |
+| Making the demo depend on GPU training | Keep demo runnable without GPU; training is an extension |
+| Using vague metrics | Define thresholds, sample sets, analytics, and review rubric |
+
+## Response Pattern
+
+When invoked, respond in this order:
+
+1. State the assumed product goal, market, users, and constraints.
+2. Present the company roster and why each function is needed.
+3. Generate or update the output package.
+4. Run `company_os.py` when a local project source is available, then use its report as evidence.
+5. Fill the first four artifacts immediately: company charter, market opportunity, product requirements, user research.
+6. List verification commands or manual checks before making any completion claim.

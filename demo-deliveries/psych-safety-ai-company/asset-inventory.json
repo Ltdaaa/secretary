@@ -1,0 +1,1166 @@
+{
+  "summary": {
+    "source": "C:\\Users\\10084\\Desktop\\skill-guard_xin",
+    "total_files": 502,
+    "total_size_bytes": 8725564
+  },
+  "by_extension": {
+    ".csv": 5,
+    ".docx": 1,
+    ".example": 1,
+    ".html": 5,
+    ".js": 2,
+    ".json": 27,
+    ".md": 302,
+    ".npy": 4,
+    ".pkl": 7,
+    ".png": 13,
+    ".py": 86,
+    ".sh": 8,
+    ".svg": 7,
+    ".txt": 6,
+    ".xlsx": 1,
+    ".yaml": 10,
+    ".yml": 2,
+    ".zip": 3,
+    "[no extension]": 12
+  },
+  "by_category": {
+    "code": 101,
+    "data": 6,
+    "docs": 347,
+    "model": 7,
+    "other": 41
+  },
+  "notable_files": [
+    {
+      "path": "THETA\\archive\\legacy_scripts\\migrate_result_structure.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 8097
+    },
+    {
+      "path": "THETA\\archive\\legacy_scripts\\quick_start_chinese.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 6471
+    },
+    {
+      "path": "THETA\\archive\\legacy_scripts\\quick_start_english.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 6462
+    },
+    {
+      "path": "THETA\\scripts\\clean_data.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 13693
+    },
+    {
+      "path": "THETA\\scripts\\env_setup.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 6508
+    },
+    {
+      "path": "THETA\\scripts\\quick_start.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 9274
+    },
+    {
+      "path": "THETA\\scripts\\train_baseline.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 14559
+    },
+    {
+      "path": "THETA\\scripts\\train_theta.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 11728
+    },
+    {
+      "path": "THETA\\scripts\\visualize.sh",
+      "category": "code",
+      "extension": ".sh",
+      "size_bytes": 7479
+    },
+    {
+      "path": "THETA\\src\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 151
+    },
+    {
+      "path": "THETA\\src\\models\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 428
+    },
+    {
+      "path": "THETA\\src\\models\\bow\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 384
+    },
+    {
+      "path": "THETA\\src\\models\\bow\\bow_generator.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 7261
+    },
+    {
+      "path": "THETA\\src\\models\\bow\\vocab_builder.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 19247
+    },
+    {
+      "path": "THETA\\src\\models\\config.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 49078
+    },
+    {
+      "path": "THETA\\src\\models\\config_loader.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 17501
+    },
+    {
+      "path": "THETA\\src\\models\\data\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 108
+    },
+    {
+      "path": "THETA\\src\\models\\data\\dataloader.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 3776
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\main.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 7724
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\src\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\src\\cleaner.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 9489
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\src\\consolidator.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 16101
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\src\\converter.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 13705
+    },
+    {
+      "path": "THETA\\src\\models\\evaluation\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 1074
+    },
+    {
+      "path": "THETA\\src\\models\\evaluation\\topic_metrics.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 29309
+    },
+    {
+      "path": "THETA\\src\\models\\evaluation\\unified_evaluator.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 19140
+    },
+    {
+      "path": "THETA\\src\\models\\experiment_manager.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 16887
+    },
+    {
+      "path": "THETA\\src\\models\\main.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 40255
+    },
+    {
+      "path": "THETA\\src\\models\\model\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 3063
+    },
+    {
+      "path": "THETA\\src\\models\\model\\base.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6313
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 1823
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\bertopic.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 13080
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\btm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 12534
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\ctm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 22445
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\dtm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 13947
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\etm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 11470
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\gsm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6374
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\hdp.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 8804
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\lda.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 16713
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\nvdm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6721
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\prodlda.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6245
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline\\stm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 23164
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline_data.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 11876
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline_evaluator.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 15488
+    },
+    {
+      "path": "THETA\\src\\models\\model\\baseline_trainer.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 72960
+    },
+    {
+      "path": "THETA\\src\\models\\model\\registry.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 15611
+    },
+    {
+      "path": "THETA\\src\\models\\model\\theta\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 298
+    },
+    {
+      "path": "THETA\\src\\models\\model\\theta\\decoder.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 5241
+    },
+    {
+      "path": "THETA\\src\\models\\model\\theta\\encoder.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 5631
+    },
+    {
+      "path": "THETA\\src\\models\\model\\theta\\etm.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 13948
+    },
+    {
+      "path": "THETA\\src\\models\\model\\trainer.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 16786
+    },
+    {
+      "path": "THETA\\src\\models\\model\\vocab_embedder.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 10021
+    },
+    {
+      "path": "THETA\\src\\models\\models_config\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 200
+    },
+    {
+      "path": "THETA\\src\\models\\models_config\\model_config.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 10436
+    },
+    {
+      "path": "THETA\\src\\models\\prepare_data.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 52364
+    },
+    {
+      "path": "THETA\\src\\models\\run_pipeline.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 41314
+    },
+    {
+      "path": "THETA\\src\\models\\utils\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 53
+    },
+    {
+      "path": "THETA\\src\\models\\utils\\path_manager.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 6859
+    },
+    {
+      "path": "THETA\\src\\models\\utils\\result_manager.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 18453
+    },
+    {
+      "path": "THETA\\src\\models\\visualization\\__init__.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 3298
+    },
+    {
+      "path": "THETA\\src\\models\\visualization\\run_visualization.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 54895
+    },
+    {
+      "path": "THETA\\src\\models\\visualization\\topic_visualizer.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 52255
+    },
+    {
+      "path": "THETA\\src\\models\\visualization\\visualization_generator.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 115662
+    },
+    {
+      "path": "compare_psychological_models.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 12619
+    },
+    {
+      "path": "enterprise-model-lab-team\\tests\\validate_skill.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 4035
+    },
+    {
+      "path": "evaluate_psychological_model.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 12426
+    },
+    {
+      "path": "submission-ready\\enterprise-model-lab-team\\tests\\validate_skill.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 4035
+    },
+    {
+      "path": "test_psychological_system.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 2989
+    },
+    {
+      "path": "train_psychological_model.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 4142
+    },
+    {
+      "path": "train_psychological_model_improved.py",
+      "category": "code",
+      "extension": ".py",
+      "size_bytes": 4340
+    },
+    {
+      "path": "THETA\\data\\demo_theta\\demo_theta_cleaned.csv",
+      "category": "data",
+      "extension": ".csv",
+      "size_bytes": 1840
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\topic_table.csv",
+      "category": "data",
+      "extension": ".csv",
+      "size_bytes": 395
+    },
+    {
+      "path": "psych_batch_result.csv",
+      "category": "data",
+      "extension": ".csv",
+      "size_bytes": 549186
+    },
+    {
+      "path": "~$心理困扰样本汇总表_补全1500_已修订(1).csv",
+      "category": "data",
+      "extension": ".csv",
+      "size_bytes": 165
+    },
+    {
+      "path": "心理困扰样本汇总表_补全1500_已修订(1).csv",
+      "category": "data",
+      "extension": ".csv",
+      "size_bytes": 150830
+    },
+    {
+      "path": "心理困扰样本汇总表_补全1500_已修订(1).xlsx",
+      "category": "data",
+      "extension": ".xlsx",
+      "size_bytes": 153727
+    },
+    {
+      "path": "THETA\\.github\\workflows\\deploy-docs.yml",
+      "category": "docs",
+      "extension": ".yml",
+      "size_bytes": 844
+    },
+    {
+      "path": "THETA\\MANUAL_zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 9964
+    },
+    {
+      "path": "THETA\\README.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 26204
+    },
+    {
+      "path": "THETA\\README_zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 25028
+    },
+    {
+      "path": "THETA\\assets\\readme.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2
+    },
+    {
+      "path": "THETA\\config\\default.yaml",
+      "category": "docs",
+      "extension": ".yaml",
+      "size_bytes": 6365
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\config.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 208
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\covariate_names.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 18
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\vocab.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 1436
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\vocab.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 1166
+    },
+    {
+      "path": "THETA\\doc\\advanced\\chinese-data.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2084
+    },
+    {
+      "path": "THETA\\doc\\advanced\\chinese-data.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 1956
+    },
+    {
+      "path": "THETA\\doc\\advanced\\custom-datasets.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5809
+    },
+    {
+      "path": "THETA\\doc\\advanced\\custom-datasets.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5837
+    },
+    {
+      "path": "THETA\\doc\\advanced\\distributed-training.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2270
+    },
+    {
+      "path": "THETA\\doc\\advanced\\distributed-training.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2290
+    },
+    {
+      "path": "THETA\\doc\\advanced\\hyperparameters.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5279
+    },
+    {
+      "path": "THETA\\doc\\advanced\\hyperparameters.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5153
+    },
+    {
+      "path": "THETA\\doc\\api\\prepare-data.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3172
+    },
+    {
+      "path": "THETA\\doc\\api\\prepare-data.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3183
+    },
+    {
+      "path": "THETA\\doc\\api\\run-pipeline.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4823
+    },
+    {
+      "path": "THETA\\doc\\api\\run-pipeline.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4761
+    },
+    {
+      "path": "THETA\\doc\\api\\visualization.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4186
+    },
+    {
+      "path": "THETA\\doc\\api\\visualization.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4151
+    },
+    {
+      "path": "THETA\\doc\\appendix\\faq.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5169
+    },
+    {
+      "path": "THETA\\doc\\appendix\\faq.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5326
+    },
+    {
+      "path": "THETA\\doc\\architecture\\script_mapping.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 24090
+    },
+    {
+      "path": "THETA\\doc\\examples\\chinese-dataset.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2208
+    },
+    {
+      "path": "THETA\\doc\\examples\\chinese-dataset.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2237
+    },
+    {
+      "path": "THETA\\doc\\examples\\english-dataset.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 6935
+    },
+    {
+      "path": "THETA\\doc\\examples\\english-dataset.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 6796
+    },
+    {
+      "path": "THETA\\doc\\examples\\supervised-learning.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4331
+    },
+    {
+      "path": "THETA\\doc\\examples\\supervised-learning.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4321
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\installation.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2798
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\installation.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2627
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\overview.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5904
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\overview.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5386
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\quickstart.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4961
+    },
+    {
+      "path": "THETA\\doc\\getting-started\\quickstart.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4764
+    },
+    {
+      "path": "THETA\\doc\\index.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3179
+    },
+    {
+      "path": "THETA\\doc\\index.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2967
+    },
+    {
+      "path": "THETA\\doc\\models\\baselines.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3171
+    },
+    {
+      "path": "THETA\\doc\\models\\baselines.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2868
+    },
+    {
+      "path": "THETA\\doc\\models\\comparison.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3467
+    },
+    {
+      "path": "THETA\\doc\\models\\comparison.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3307
+    },
+    {
+      "path": "THETA\\doc\\models\\theta.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5851
+    },
+    {
+      "path": "THETA\\doc\\models\\theta.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5390
+    },
+    {
+      "path": "THETA\\doc\\troubleshooting.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 6999
+    },
+    {
+      "path": "THETA\\doc\\troubleshooting.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 6825
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\data-preparation.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2025
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\data-preparation.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 1858
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\evaluation.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2349
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\evaluation.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2186
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\preprocessing.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 6123
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\preprocessing.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 5815
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\scripts.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 30393
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\scripts.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 30134
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\training.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4711
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\training.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 4410
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\visualization.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2415
+    },
+    {
+      "path": "THETA\\doc\\user-guide\\visualization.zh.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 2316
+    },
+    {
+      "path": "THETA\\docs-requirements.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 60
+    },
+    {
+      "path": "THETA\\mkdocs.yml",
+      "category": "docs",
+      "extension": ".yml",
+      "size_bytes": 5419
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\config.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 373
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\README.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 1060
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\lda\\info_k3.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 177
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\lda\\topic_words_k3.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 534
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\metrics_k3.json",
+      "category": "docs",
+      "extension": ".json",
+      "size_bytes": 863
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\requirements.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 136
+    },
+    {
+      "path": "THETA\\src\\models\\dataclean\\src\\chinese_stopwords.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 723
+    },
+    {
+      "path": "THETA\\src\\models\\model\\theta\\1.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 2
+    },
+    {
+      "path": "THETA\\src\\models\\models_config\\models.yaml",
+      "category": "docs",
+      "extension": ".yaml",
+      "size_bytes": 9941
+    },
+    {
+      "path": "THETA\\src\\models\\requirements.txt",
+      "category": "docs",
+      "extension": ".txt",
+      "size_bytes": 1770
+    },
+    {
+      "path": "enterprise-model-lab-team\\SKILL.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 15622
+    },
+    {
+      "path": "skill-guard\\SKILL.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 3529
+    },
+    {
+      "path": "submission-ready\\enterprise-model-lab-team\\SKILL.md",
+      "category": "docs",
+      "extension": ".md",
+      "size_bytes": 15442
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\lda\\model_k3.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 9904
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\label_encoder.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 272
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\label_encoder_improved.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 332
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\logistic_regression_improved.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 670418
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\tfidf_vectorizer.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 122326
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\tfidf_vectorizer_improved.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 525905
+    },
+    {
+      "path": "skill-guard\\scripts\\model\\xgboost_classifier.pkl",
+      "category": "model",
+      "extension": ".pkl",
+      "size_bytes": 917762
+    },
+    {
+      "path": "THETA\\.DS_Store",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 6148
+    },
+    {
+      "path": "THETA\\.env",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 120
+    },
+    {
+      "path": "THETA\\.env.example",
+      "category": "other",
+      "extension": ".example",
+      "size_bytes": 4053
+    },
+    {
+      "path": "THETA\\.gitignore",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 5425
+    },
+    {
+      "path": "THETA\\LICENSE",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 1089
+    },
+    {
+      "path": "THETA\\assets\\THETA.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 1476331
+    },
+    {
+      "path": "THETA\\data\\.gitkeep",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\bow_matrix.npy",
+      "category": "other",
+      "extension": ".npy",
+      "size_bytes": 9776
+    },
+    {
+      "path": "THETA\\data\\workspace\\demo_user\\demo_theta\\covariates.npy",
+      "category": "other",
+      "extension": ".npy",
+      "size_bytes": 272
+    },
+    {
+      "path": "THETA\\models\\.gitkeep",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\models\\qwen3_embedding_0.6B\\.gitkeep",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\models\\sbert\\.lock\\sentence-transformers___all-MiniLM-L6-v2",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\models\\sbert\\sentence-transformers\\all-MiniLM-L6-v2\\.gitkeep",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\result\\.gitkeep",
+      "category": "other",
+      "extension": "[no extension]",
+      "size_bytes": 0
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\7 Core Metrics.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 167703
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Intertopic Distance Map.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 168962
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Top Salient Terms.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 149481
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Topic Clustering Heatmap with Dendrogram.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 97431
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Topic Correlation Network.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 139158
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Topic Proportion Distribution.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 168025
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\Topic Significance Ranking.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 49942
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\doc_topic_umap.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 77795
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\global\\topic_similarity.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 79499
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\topic\\topic_1\\Topic 1 Word Distribution.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 63765
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\topic\\topic_2\\Topic 2 Word Distribution.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 67718
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\en\\topic\\topic_3\\Topic 3 Word Distribution.png",
+      "category": "other",
+      "extension": ".png",
+      "size_bytes": 59031
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\lda\\beta_k3.npy",
+      "category": "other",
+      "extension": ".npy",
+      "size_bytes": 1736
+    },
+    {
+      "path": "THETA\\result\\demo_user\\demo_theta\\lda\\exp_20260406_173114\\lda\\theta_k3.npy",
+      "category": "other",
+      "extension": ".npy",
+      "size_bytes": 344
+    },
+    {
+      "path": "paper_figures\\model_intro\\fig3_5_skill_usage_flow.svg",
+      "category": "other",
+      "extension": ".svg",
+      "size_bytes": 8207
+    }
+  ],
+  "sensitive_hits": []
+}
