@@ -1,0 +1,34 @@
+# Secrets and local agent state
+.codex/
+auth.json
+*.key
+*.pem
+*.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives generated for submission
+*.zip
+
+# Large/private local assets
+models/
+*.pkl
+*.onnx
+*.pt
+*.pth
+*.safetensors
+

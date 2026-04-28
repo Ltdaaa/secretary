@@ -1,0 +1,68 @@
+project:
+  name: "gpo-analysis"
+  goal: "Analyze the local GPO computer vision project as an AI company delivery case."
+  domain: "AI product company, model training, evaluation, and operations"
+  deadline: "hackathon demo"
+
+company_positioning:
+  company_type: "Fortune-500-style AI technology company"
+  operating_model: "Executive command + product/market + AI R&D platform + delivery/story"
+  default_offer: "AI model product designed, evaluated, launched, and operated by a multi-agent company team"
+
+constraints:
+  compute: "CPU-first demo; GPU training optional"
+  budget: "low-cost reproducible baseline first"
+  privacy: "no private or sensitive data without explicit approval"
+  deployment: "Skill and markdown delivery package first"
+
+success_metrics:
+  business:
+    - "Judge understands company-level value in under 3 minutes"
+    - "Pipeline shows market, product, data, model, operations, and final deliverables"
+  technical:
+    - "Product requirements, data card, model matrix, training plan, fine-tune plan, MLOps plan, and evaluation protocol exist"
+    - "At least one baseline route is defined before fine-tuning"
+  operations:
+    - "Launch, onboarding, analytics, support, and feedback loop exist"
+  safety:
+    - "Risk register and legal review include privacy, copyright, bias, misuse, and overclaiming checks"
+
+agents:
+  executive:
+    - "CEO Strategy Commander"
+    - "CTO AI Officer"
+    - "COO Program Officer"
+    - "CFO Resource Analyst"
+    - "Legal & Compliance Counsel"
+  product_market:
+    - "Market Intelligence Agent"
+    - "Product Manager Agent"
+    - "User Research Agent"
+    - "UX Design Agent"
+    - "Growth & Operations Agent"
+    - "Media & Communications Agent"
+    - "Sales & Business Development Agent"
+    - "Partnerships & Ecosystem Agent"
+    - "Customer Success Agent"
+  people_governance:
+    - "HR & Talent Agent"
+    - "PMO Governance Agent"
+  technology_engineering:
+    - "Chief Architect Agent"
+    - "Full-stack Product Engineer Agent"
+    - "API Integration Engineer Agent"
+    - "Platform Reliability Agent"
+  ai_platform:
+    - "Data Intelligence Agent"
+    - "Data Governance Agent"
+    - "Model Analyst Agent"
+    - "Training Architect Agent"
+    - "Fine-tuning Engineer Agent"
+    - "Evaluation & Test Agent"
+    - "MLOps Platform Agent"
+    - "Safety & Responsible AI Agent"
+  delivery:
+    - "Agent Engineer Agent"
+    - "Brand & Demo Agent"
+    - "Executive Dashboard Agent"
+    - "Judge Summary Agent"

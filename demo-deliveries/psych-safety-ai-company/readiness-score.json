@@ -1,0 +1,30 @@
+{
+  "score": 100,
+  "status": "strong",
+  "checks": {
+    "company_artifacts": {
+      "score": 20,
+      "detail": "30/30 numbered company artifacts exist"
+    },
+    "placeholder_cleanliness": {
+      "score": 15,
+      "detail": "no placeholders found"
+    },
+    "real_asset_inventory": {
+      "score": 15,
+      "detail": "101 code files and 347 docs detected"
+    },
+    "data_profile": {
+      "score": 15,
+      "detail": "6 data files profiled"
+    },
+    "model_route": {
+      "score": 15,
+      "detail": "Data governance + labeling first, then local baseline"
+    },
+    "security_scan": {
+      "score": 20,
+      "detail": "no secret patterns detected"
+    }
+  }
+}

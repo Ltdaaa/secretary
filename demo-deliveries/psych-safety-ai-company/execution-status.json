@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-04-28T13:50:25.155012+00:00",
+  "executed_orders": 8,
+  "status": "executed",
+  "results": [
+    {
+      "department": "Product",
+      "owner": "Product Manager Agent",
+      "priority": "P0",
+      "status": "executed",
+      "artifact": "executed-work\\01-product-product-manager-agent.md",
+      "acceptance": "A judge can run one primary workflow end to end without reading source code."
+    },
+    {
+      "department": "Technology",
+      "owner": "Chief Architect Agent",
+      "priority": "P0",
+      "status": "executed",
+      "artifact": "executed-work\\02-technology-chief-architect-agent.md",
+      "acceptance": "Static website works without API keys; local runner writes machine-readable evidence files."
+    },
+    {
+      "department": "Data",
+      "owner": "Data Governance Agent",
+      "priority": "P0",
+      "status": "executed",
+      "artifact": "executed-work\\03-data-data-governance-agent.md",
+      "acceptance": "Text column, label column, empty counts, and split strategy are explicit before training claims."
+    },
+    {
+      "department": "AI Platform",
+      "owner": "Model Analyst Agent",
+      "priority": "P0",
+      "status": "executed",
+      "artifact": "executed-work\\04-ai-platform-model-analyst-agent.md",
+      "acceptance": "Baseline choice, metric, failure mode, and rollback rule are written before fine-tuning."
+    },
+    {
+      "department": "AI Platform",
+      "owner": "Training Architect Agent",
+      "priority": "P1",
+      "status": "executed",
+      "artifact": "executed-work\\05-ai-platform-training-architect-agent.md",
+      "acceptance": "Every experiment row has a reproducible command or is explicitly marked as future work."
+    },
+    {
+      "department": "MLOps",
+      "owner": "MLOps Platform Agent",
+      "priority": "P1",
+      "status": "executed",
+      "artifact": "executed-work\\06-mlops-mlops-platform-agent.md",
+      "acceptance": "Each model/checkpoint has owner, source, metric, version, and rollback notes."
+    },
+    {
+      "department": "Security",
+      "owner": "Legal & Compliance Counsel",
+      "priority": "P1",
+      "status": "executed",
+      "artifact": "executed-work\\07-security-legal-compliance-counsel.md",
+      "acceptance": "Submission package contains no auth.json, .codex folder, API key, private key, or private dataset."
+    },
+    {
+      "department": "Submission",
+      "owner": "Judge Summary Agent",
+      "priority": "P0",
+      "status": "executed",
+      "artifact": "executed-work\\08-submission-judge-summary-agent.md",
+      "acceptance": "A 3-minute path shows input, multi-agent work, real evidence, and downloadable outputs."
+    }
+  ]
+}

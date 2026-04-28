@@ -1,0 +1,10 @@
+{
+  "project": "psych-safety-ai-company",
+  "goal": "Deliver a working AI project for psych-safety-ai-company.",
+  "entry": "index.html",
+  "runtime": "static-browser",
+  "requires_api_key": false,
+  "requires_backend": false,
+  "readiness_score": 100,
+  "model_route": "Data governance + labeling first, then local baseline"
+}
