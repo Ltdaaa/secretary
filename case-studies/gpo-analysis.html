@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPO Analysis Case Study</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5d6678;
+      --line: #d8deea;
+      --panel: #ffffff;
+      --bg: #f5f7fb;
+      --blue: #2457d6;
+      --green: #137a5c;
+      --amber: #926200;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; color: var(--ink); background: var(--bg); line-height: 1.58; }
+    header { background: #0f172a; color: #fff; padding: 34px 24px 28px; border-bottom: 4px solid var(--blue); }
+    main { padding: 24px; }
+    .wrap { max-width: 1120px; margin: 0 auto; }
+    h1 { margin: 0 0 10px; font-size: clamp(30px, 5vw, 52px); line-height: 1.05; }
+    h2 { margin: 0 0 14px; font-size: 24px; }
+    h3 { margin: 0 0 8px; font-size: 18px; }
+    p { margin: 0 0 12px; }
+    a { color: var(--blue); }
+    .subhead { max-width: 900px; color: #dbe5ff; font-size: 18px; }
+    section { margin: 0 auto 24px; max-width: 1120px; }
+    .grid { display: grid; gap: 14px; }
+    .cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; min-width: 0; }
+    .metric strong { display: block; font-size: 34px; line-height: 1; color: var(--blue); }
+    .metric span { color: var(--muted); font-size: 13px; }
+    table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 8px; overflow: hidden; }
+    th, td { border: 1px solid var(--line); padding: 10px; text-align: left; vertical-align: top; }
+    th { background: #eef3ff; }
+    .status { color: var(--green); font-weight: 700; }
+    .warn { color: var(--amber); font-weight: 700; }
+    code, pre { display: block; white-space: pre-wrap; background: #0f172a; color: #d7e3ff; padding: 12px; border-radius: 8px; font-size: 13px; overflow-wrap: anywhere; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn { border: 1px solid var(--blue); background: #fff; color: var(--blue); border-radius: 7px; padding: 9px 12px; text-decoration: none; }
+    .btn.primary { background: var(--blue); color: #fff; }
+    footer { padding: 20px 24px 38px; color: var(--muted); }
+    @media (max-width: 850px) { .cols-4, .cols-2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>GPO 真实分析案例</h1>
+      <p class="subhead">使用 Enterprise Model Lab Team 对本地 GPO 计算机视觉项目进行 AI 公司级分析：扫描资产、读取训练日志、判断模型路线、输出高管级交付报告。</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid cols-4">
+      <div class="card metric"><strong>314</strong><span>扫描文件</span></div>
+      <div class="card metric"><strong>158</strong><span>代码文件</span></div>
+      <div class="card metric"><strong>80</strong><span>模型文件</span></div>
+      <div class="card metric"><strong>85</strong><span>准备度评分</span></div>
+    </section>
+
+    <section class="grid cols-2">
+      <div class="card">
+        <h2>项目判断</h2>
+        <p>GPO 不是文本/LLM 项目，而是 <strong>SAM + DINOv2/feature matching + RL/DQN prompt optimizer</strong> 的计算机视觉分割项目。</p>
+        <p class="warn">正确路线不是直接 LLM fine-tune，而是把它产品化为 SAM Prompt Optimization Layer。</p>
+      </div>
+      <div class="card">
+        <h2>训练证据</h2>
+        <table>
+          <tbody>
+            <tr><td>训练日志文件</td><td>10</td></tr>
+            <tr><td>Episode/reward 记录</td><td>5019</td></tr>
+            <tr><td>平均 reward</td><td>0.4293</td></tr>
+            <tr><td>reward 范围</td><td>-0.9045 到 4.545</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>公司级结论</h2>
+      <table>
+        <thead><tr><th>职能</th><th>发现</th><th>建议</th></tr></thead>
+        <tbody>
+          <tr><td>产品经理</td><td>核心价值是优化 SAM 提示点/框，提高分割效果。</td><td>定位为面向医学图像、VOC-like、few-shot 分割的 prompt optimization layer。</td></tr>
+          <tr><td>数据治理</td><td>存在图像、bbox、feature、prompt indices，但缺少统一 manifest。</td><td>新增 `dataset_manifest.csv/jsonl`，统一记录图像、mask、特征、prompt、split。</td></tr>
+          <tr><td>模型分析</td><td>已有 SAM、DINOv2、RL/DQN、feature matching 资产。</td><td>保留 SAM 冻结，用 RL prompt optimizer 做自适应策略层。</td></tr>
+          <tr><td>评测测试</td><td>存在 FSS、VOC、segmentation 评测脚本。</td><td>统一输出 mIoU、Dice、boundary F1、prompt count、latency、reward curve。</td></tr>
+          <tr><td>MLOps</td><td>有 best/final 模型文件，但缺少模型注册表。</td><td>建立模型 registry，绑定 config、checkpoint、训练日志和评测结果。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid cols-2">
+      <div class="card">
+        <h2>推荐模型路线</h2>
+        <ol>
+          <li>保持 SAM 冻结。</li>
+          <li>使用 DINOv2/feature matching 提供视觉表征。</li>
+          <li>使用现有 RL/DQN prompt optimizer 作为自适应策略层。</li>
+          <li>统一 FSS、ISIC/Kvasir、VOC 等任务评测指标。</li>
+          <li>产品化为可交互的 segmentation prompt optimization demo。</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h2>报告文件</h2>
+        <div class="links">
+          <a class="btn primary" href="../../case-studies/gpo-analysis/GPO-company-analysis.md">GPO 专项分析</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/run-report.md">运行报告</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/06-model-selection.md">模型路线</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/18-executive-dashboard.md">高管仪表盘</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/work-orders.md">落地工作单</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/action-plan.json">行动计划 JSON</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/execution-log.md">执行日志</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/execution-status.json">执行状态 JSON</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/client-project/index.html">客户成品项目</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/client-project-status.json">客户项目烟测 JSON</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/readiness-score.json">准备度 JSON</a>
+          <a class="btn" href="../../case-studies/gpo-analysis/asset-inventory.json">资产清单 JSON</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>复现命令</h2>
+      <pre>python enterprise-model-lab-team\scripts\create_workspace.py --name gpo-ai-company --goal "Analyze the GPO computer-vision project as a Fortune-500-style AI company: identify assets, evaluate data/model/training readiness, recommend model and product routes, and generate executive delivery artifacts." --output gpo-ai-company-report --force
+
+python enterprise-model-lab-team\scripts\company_os.py --workspace gpo-ai-company-report\gpo-ai-company --source "C:\Users\10084\Desktop\fsdownload\GPO"</pre>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><a href="../index.html">返回主 Demo</a></div>
+  </footer>
+</body>
+</html>
