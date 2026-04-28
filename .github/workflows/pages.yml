@@ -3,6 +3,7 @@ name: Deploy static demo
 on:
   push:
     branches:
+      - main
       - enterprise-model-lab-team
   workflow_dispatch:
 
