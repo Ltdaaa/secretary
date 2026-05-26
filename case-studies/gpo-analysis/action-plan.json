@@ -35,7 +35,7 @@
     "department": "AI Platform",
     "owner": "Training Architect Agent",
     "action": "Turn training into an experiment matrix with data version, command, metric, budget, and rollback.",
-    "evidence": "Training scripts detected: True",
+    "evidence": "Training scripts detected: False",
     "acceptance": "Every experiment row has a reproducible command or is explicitly marked as future work.",
     "priority": "P1"
   },
@@ -43,9 +43,9 @@
     "department": "MLOps",
     "owner": "MLOps Platform Agent",
     "action": "Register detected model artifacts and connect them to configs, metrics, and release status.",
-    "evidence": "Model assets detected: True",
+    "evidence": "Model assets detected: False",
     "acceptance": "Each model/checkpoint has owner, source, metric, version, and rollback notes.",
-    "priority": "P1"
+    "priority": "P2"
   },
   {
     "department": "Security",

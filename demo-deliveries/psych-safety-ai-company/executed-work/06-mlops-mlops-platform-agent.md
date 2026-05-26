@@ -1,7 +1,7 @@
 # Executed Work Order 6: MLOps
 
 Owner: MLOps Platform Agent
-Priority: P1
+Priority: P2
 
 ## Work Order
 
@@ -13,11 +13,11 @@ Each model/checkpoint has owner, source, metric, version, and rollback notes.
 
 ## Evidence Used
 
-Model assets detected: True
+Model assets detected: False
 
 ## Executed Output
 
-- Model assets detected: 7
+- Model assets detected: 0
 - Registry action: every detected model artifact must be bound to source, config, metrics, owner, version, and rollback status.
 - Release default: no production release until registry fields and evaluation gates are complete.
 

@@ -35,7 +35,7 @@
       <button class="secondary" id="downloadBtn">Download Delivery JSON</button>
     </section>
     <section class="grid">
-      <div class="panel metric"><strong id="readiness">100</strong><span>Readiness Score</span></div>
+      <div class="panel metric"><strong id="readiness">85</strong><span>Readiness Score</span></div>
       <div class="panel metric"><strong id="route">1</strong><span>Recommended Route</span></div>
       <div class="panel metric"><strong id="items">0</strong><span>Generated Items</span></div>
     </section>
@@ -45,7 +45,7 @@
     </section>
   </main>
   <script>
-    const modelRoute = `Data governance + labeling first, then local baseline`;
+    const modelRoute = `Product workflow and data acquisition first`;
     const defaultGoal = `Deliver a working AI project for psych-safety-ai-company.`;
     const projectName = `psych-safety-ai-company`;
     let currentDelivery = null;
@@ -63,7 +63,7 @@
         generatedAt: new Date().toISOString(),
         goal,
         modelRoute,
-        readinessScore: 100,
+        readinessScore: 85,
         items
       };
       document.getElementById("items").textContent = items.length;

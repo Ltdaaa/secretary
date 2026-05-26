@@ -38,6 +38,7 @@ This artifact is complete only when a reviewer can identify the decision, eviden
 <!-- COMPANY_OS:Training Readiness:START -->
 ## Company OS Findings: Training Readiness
 
-Training scripts detected: True. Labeled text data detected: False.
+Training scripts detected: False. Labeled text data detected: False.
 <!-- COMPANY_OS:Training Readiness:END -->
+
 

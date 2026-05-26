@@ -42,6 +42,7 @@ Primary route: **Product workflow and data acquisition first**
 
 Reason: No clearly profiled text dataset was found.
 
-Fine-tune position: Not first step; local model artifacts detected
+Fine-tune position: Not first step
 <!-- COMPANY_OS:Model Route:END -->
+
 

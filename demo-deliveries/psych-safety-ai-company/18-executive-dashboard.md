@@ -38,7 +38,7 @@ This artifact is complete only when a reviewer can identify the decision, eviden
 <!-- COMPANY_OS:Readiness:START -->
 ## Company OS Findings: Readiness
 
-Readiness score: **100/100** (strong).
+Readiness score: **85/100** (strong).
 
 Execution status: **executed** with 8 executed work orders.
 
@@ -48,9 +48,15 @@ Client project status: **passed** at `client-project/index.html`.
 | --- | --- | --- |
 | company_artifacts | 20 | 30/30 numbered company artifacts exist |
 | placeholder_cleanliness | 15 | no placeholders found |
-| real_asset_inventory | 15 | 101 code files and 347 docs detected |
-| data_profile | 15 | 6 data files profiled |
-| model_route | 15 | Data governance + labeling first, then local baseline |
+| real_asset_inventory | 15 | 13 code files and 117 docs detected |
+| data_profile | 0 | no profileable data file found |
+| model_route | 15 | Product workflow and data acquisition first |
 | security_scan | 20 | no secret patterns detected |
 <!-- COMPANY_OS:Readiness:END -->
+
+<!-- COMPANY_OS:Judge Proof Pack:START -->
+## Company OS Findings: Judge Proof Pack
+
+The run generated `capability-matrix.md`, `acceptance-checklist.md`, and `next-execution-plan.md` so reviewers can verify capability, acceptance status, and next executable steps without trusting narrative claims.
+<!-- COMPANY_OS:Judge Proof Pack:END -->
 

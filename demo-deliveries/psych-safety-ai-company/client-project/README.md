@@ -19,4 +19,4 @@ python -m http.server 8090 --bind 127.0.0.1
 
 ## Model Route
 
-Data governance + labeling first, then local baseline
+Product workflow and data acquisition first

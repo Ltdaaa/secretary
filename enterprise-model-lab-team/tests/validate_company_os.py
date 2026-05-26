@@ -51,6 +51,9 @@ def main() -> int:
         execution_log = project_dir / "execution-log.md"
         client_project_status = project_dir / "client-project-status.json"
         client_project = project_dir / "client-project"
+        capability_matrix = project_dir / "capability-matrix.md"
+        acceptance_checklist = project_dir / "acceptance-checklist.md"
+        next_execution_plan = project_dir / "next-execution-plan.md"
         report = project_dir / "run-report.md"
         assert inventory.exists(), "asset-inventory.json was not generated"
         assert readiness.exists(), "readiness-score.json was not generated"
@@ -60,6 +63,9 @@ def main() -> int:
         assert execution_log.exists(), "execution-log.md was not generated"
         assert client_project_status.exists(), "client-project-status.json was not generated"
         assert client_project.exists(), "client-project was not generated"
+        assert capability_matrix.exists(), "capability-matrix.md was not generated"
+        assert acceptance_checklist.exists(), "acceptance-checklist.md was not generated"
+        assert next_execution_plan.exists(), "next-execution-plan.md was not generated"
         assert report.exists(), "run-report.md was not generated"
 
         inventory_data = json.loads(inventory.read_text(encoding="utf-8"))
@@ -70,6 +76,9 @@ def main() -> int:
         report_text = report.read_text(encoding="utf-8")
         work_orders_text = work_orders.read_text(encoding="utf-8")
         execution_log_text = execution_log.read_text(encoding="utf-8")
+        capability_text = capability_matrix.read_text(encoding="utf-8")
+        acceptance_text = acceptance_checklist.read_text(encoding="utf-8")
+        next_plan_text = next_execution_plan.read_text(encoding="utf-8")
 
         assert inventory_data["summary"]["total_files"] > 0
         assert ".py" in inventory_data["by_extension"]
@@ -92,6 +101,14 @@ def main() -> int:
         assert "Concrete Work Orders" in report_text
         assert "Plan Execution Status" in report_text
         assert "Client Project Delivery" in report_text
+        assert "Judge-Proof Summary" in report_text
+        assert "Capability Matrix" in report_text
+        assert "Acceptance Checklist" in report_text
+        assert "Next Execution Plan" in report_text
+        assert "Project asset scan" in capability_text
+        assert "Runnable client delivery" in capability_text
+        assert "Run client project smoke test" in acceptance_text
+        assert "Judge Summary Agent" in next_plan_text
 
     print("enterprise-model-lab-team company_os validation passed")
     return 0

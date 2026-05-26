@@ -94,6 +94,7 @@ class Document {
       "artifactDone",
       "handoffCount",
       "scoreCount",
+      "judgeProofGrid",
       "agentList",
       "stageLane",
       "deliverables",
@@ -296,6 +297,7 @@ async function main() {
   if (agentDone !== 31) throw new Error(`expected 31 completed agents, got ${agentDone}`);
   if (artifactDone !== 30) throw new Error(`expected 30 completed artifacts, got ${artifactDone}`);
   if (!document.getElementById("selfTestPanel").textContent.includes("PASS")) throw new Error("self-test did not render PASS rows");
+  if (!document.getElementById("judgeProofGrid").textContent.includes("AI Delivery Readiness")) throw new Error("judge proof cockpit did not render");
   if (!document.getElementById("reportPreview").textContent.includes("浏览器真实执行结果")) throw new Error("report preview missing execution evidence");
   if (context.window.location.href !== "case-studies/gpo-analysis.html") throw new Error("GPO case button did not navigate");
 
@@ -305,10 +307,15 @@ async function main() {
   }
   const evidence = JSON.parse(downloads["agent-company-evidence.json"]);
   if (evidence.agents.length !== 31) throw new Error("evidence JSON agent count mismatch");
+  if (!evidence.judgeProof || !evidence.judgeProof.readinessBand) throw new Error("evidence JSON missing judge proof readiness band");
+  if (!Array.isArray(evidence.capabilityMatrix) || evidence.capabilityMatrix.length < 6) throw new Error("evidence JSON missing capability matrix");
+  if (!Array.isArray(evidence.judgeDemoPath) || evidence.judgeDemoPath.length < 6) throw new Error("evidence JSON missing judge demo path");
   if (evidence.dataProfile.textCol !== "prompt") throw new Error("evidence JSON did not use uploaded CSV text column");
   if (evidence.dataProfile.labelCol !== "risk") throw new Error("evidence JSON did not use uploaded CSV label column");
   if (evidence.selfTest.some((check) => !check.pass)) throw new Error("evidence JSON contains failed self-test checks");
   if (!downloads["agent-company-deliverables.md"].includes("## 7. 下一步落地动作")) throw new Error("deliverables missing execution actions");
+  if (!downloads["agent-company-run-report.md"].includes("Judge Proof Cockpit")) throw new Error("run report missing judge proof cockpit");
+  if (!downloads["agent-company-run-report.md"].includes("AI交付准备度")) throw new Error("run report missing AI delivery readiness label");
   if (!downloads["agent-company-run-report.md"].includes("功能自检")) throw new Error("run report missing self-test section");
 
   console.log("enterprise-model-lab-team site runtime validation passed");

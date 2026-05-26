@@ -34,3 +34,10 @@ Purpose: Submission story, proof points, limitations, and next roadmap.
 ## Completion Gate
 
 This artifact is complete only when a reviewer can identify the decision, evidence, owner, blocker, and next action.
+
+<!-- COMPANY_OS:Judge Proof Pack:START -->
+## Company OS Findings: Judge Proof Pack
+
+Use these artifacts in the final walkthrough: `run-report.md`, `capability-matrix.md`, `acceptance-checklist.md`, `next-execution-plan.md`, `execution-status.json`, and `client-project-status.json`.
+<!-- COMPANY_OS:Judge Proof Pack:END -->
+

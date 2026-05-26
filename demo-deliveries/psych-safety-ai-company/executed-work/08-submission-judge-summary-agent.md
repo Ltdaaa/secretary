@@ -13,11 +13,11 @@ A 3-minute path shows input, multi-agent work, real evidence, and downloadable o
 
 ## Evidence Used
 
-Readiness: 100/100 (strong)
+Readiness: 85/100 (strong)
 
 ## Executed Output
 
-- Readiness result: 100/100 (strong)
+- Readiness result: 85/100 (strong)
 - Judge walkthrough assembled around website, GPO case, run report, readiness score, work orders, and execution status.
 - Submission evidence is machine-readable and human-readable.
 

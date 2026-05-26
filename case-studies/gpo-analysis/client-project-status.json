@@ -10,7 +10,7 @@
     "client-project/tests/smoke_test.py"
   ],
   "smoke_test": {
-    "command": "C:\\Users\\10084\\anaconda3\\python.exe tests/smoke_test.py",
+    "command": "C:\\Users\\10084\\AppData\\Local\\Programs\\Python\\Python312\\python.exe tests/smoke_test.py",
     "returncode": 0,
     "stdout": "client project smoke test passed",
     "stderr": ""

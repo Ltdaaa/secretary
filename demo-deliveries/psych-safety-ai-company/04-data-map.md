@@ -38,15 +38,9 @@ This artifact is complete only when a reviewer can identify the decision, eviden
 <!-- COMPANY_OS:Data Asset Scan:START -->
 ## Company OS Findings: Data Asset Scan
 
-Detected 6 data files and profiled 6 candidates.
+Detected 0 data files and profiled 0 candidates.
 
-| path | sampled_rows | label_candidates | text_candidates |
-| --- | --- | --- | --- |
-| psych_batch_result.csv | 1500 |  | 内容 |
-| ~$心理困扰样本汇总表_补全1500_已修订(1).csv | 0 |  |  |
-| 心理困扰样本汇总表_补全1500_已修订(1).csv |  |  |  |
-| 心理困扰样本汇总表_补全1500_已修订(1).xlsx |  |  |  |
-| THETA\data\demo_theta\demo_theta_cleaned.csv | 18 | category |  |
-| THETA\result\demo_user\demo_theta\lda\exp_20260406_173114\en\global\topic_table.csv | 3 |  |  |
+No rows.
 <!-- COMPANY_OS:Data Asset Scan:END -->
+
 

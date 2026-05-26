@@ -38,10 +38,11 @@ This artifact is complete only when a reviewer can identify the decision, eviden
 <!-- COMPANY_OS:Model Route:START -->
 ## Company OS Findings: Model Route
 
-Primary route: **Data governance + labeling first, then local baseline**
+Primary route: **Product workflow and data acquisition first**
 
-Reason: Detected text data, but a same-file label column was not confirmed.
+Reason: No clearly profiled text dataset was found.
 
-Fine-tune position: Not first step; local model artifacts detected
+Fine-tune position: Not first step
 <!-- COMPANY_OS:Model Route:END -->
+
 

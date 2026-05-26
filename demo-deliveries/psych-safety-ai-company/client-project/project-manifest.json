@@ -5,6 +5,6 @@
   "runtime": "static-browser",
   "requires_api_key": false,
   "requires_backend": false,
-  "readiness_score": 100,
-  "model_route": "Data governance + labeling first, then local baseline"
+  "readiness_score": 85,
+  "model_route": "Product workflow and data acquisition first"
 }

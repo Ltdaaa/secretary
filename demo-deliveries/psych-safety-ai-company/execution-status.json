@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T13:50:25.155012+00:00",
+  "generated_at": "2026-05-26T12:23:57.225295+00:00",
   "executed_orders": 8,
   "status": "executed",
   "results": [
@@ -22,7 +22,7 @@
     {
       "department": "Data",
       "owner": "Data Governance Agent",
-      "priority": "P0",
+      "priority": "P1",
       "status": "executed",
       "artifact": "executed-work\\03-data-data-governance-agent.md",
       "acceptance": "Text column, label column, empty counts, and split strategy are explicit before training claims."
@@ -46,7 +46,7 @@
     {
       "department": "MLOps",
       "owner": "MLOps Platform Agent",
-      "priority": "P1",
+      "priority": "P2",
       "status": "executed",
       "artifact": "executed-work\\06-mlops-mlops-platform-agent.md",
       "acceptance": "Each model/checkpoint has owner, source, metric, version, and rollback notes."

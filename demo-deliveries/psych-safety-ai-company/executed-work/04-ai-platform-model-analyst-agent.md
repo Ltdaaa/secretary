@@ -5,7 +5,7 @@ Priority: P0
 
 ## Work Order
 
-Execute the recommended route: Data governance + labeling first, then local baseline.
+Execute the recommended route: Product workflow and data acquisition first.
 
 ## Acceptance Criteria
 
@@ -13,12 +13,12 @@ Baseline choice, metric, failure mode, and rollback rule are written before fine
 
 ## Evidence Used
 
-Detected text data, but a same-file label column was not confirmed.
+No clearly profiled text dataset was found.
 
 ## Executed Output
 
-- Selected route: Data governance + labeling first, then local baseline
-- Fine-tune position: Not first step; local model artifacts detected
-- Reason: Detected text data, but a same-file label column was not confirmed.
+- Selected route: Product workflow and data acquisition first
+- Fine-tune position: Not first step
+- Reason: No clearly profiled text dataset was found.
 - Execution decision: baseline and evaluation gates must run before any fine-tuning claim.
 

@@ -13,11 +13,11 @@ Every experiment row has a reproducible command or is explicitly marked as futur
 
 ## Evidence Used
 
-Training scripts detected: True
+Training scripts detected: False
 
 ## Executed Output
 
-- Training scripts detected: True
+- Training scripts detected: False
 - Experiment matrix status: generated as executable planning artifact, with commands required before a training claim.
 - Rollback rule: keep prompt/rule baseline as default until metrics beat release thresholds.
 

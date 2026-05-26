@@ -37,6 +37,15 @@ REQUIRED_SNIPPETS = [
     "buildArtifacts",
     "artifactRecommendation",
     "case-studies/gpo-analysis.html",
+    "Judge Proof Cockpit",
+    "judgeProofGrid",
+    "renderJudgeProof",
+    "capabilityMatrix",
+    "judgeDemoPath",
+    "AI交付准备度",
+    "capability-matrix.md",
+    "acceptance-checklist.md",
+    "next-execution-plan.md",
     "Media & Communications Agent",
     "Sales & Business Development Agent",
     "HR & Talent Agent",
@@ -68,6 +77,9 @@ def main() -> int:
     assert "agent-company-evidence.json" in html, "JSON evidence export missing"
     case_html = case.read_text(encoding="utf-8")
     assert "work-orders.md" in case_html, "GPO case should expose concrete work orders"
+    assert "capability-matrix.md" in case_html, "GPO case should expose capability matrix"
+    assert "acceptance-checklist.md" in case_html, "GPO case should expose acceptance checklist"
+    assert "next-execution-plan.md" in case_html, "GPO case should expose next execution plan"
     assert "execution-log.md" in case_html, "GPO case should expose executed work evidence"
     assert "client-project/index.html" in case_html, "GPO case should expose generated client project"
 

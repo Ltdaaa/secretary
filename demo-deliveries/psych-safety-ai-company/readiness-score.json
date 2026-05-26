@@ -1,5 +1,5 @@
 {
-  "score": 100,
+  "score": 85,
   "status": "strong",
   "checks": {
     "company_artifacts": {
@@ -12,15 +12,15 @@
     },
     "real_asset_inventory": {
       "score": 15,
-      "detail": "101 code files and 347 docs detected"
+      "detail": "13 code files and 117 docs detected"
     },
     "data_profile": {
-      "score": 15,
-      "detail": "6 data files profiled"
+      "score": 0,
+      "detail": "no profileable data file found"
     },
     "model_route": {
       "score": 15,
-      "detail": "Data governance + labeling first, then local baseline"
+      "detail": "Product workflow and data acquisition first"
     },
     "security_scan": {
       "score": 20,

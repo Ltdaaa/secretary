@@ -18,7 +18,7 @@ No clearly profiled text dataset was found.
 ## Executed Output
 
 - Selected route: Product workflow and data acquisition first
-- Fine-tune position: Not first step; local model artifacts detected
+- Fine-tune position: Not first step
 - Reason: No clearly profiled text dataset was found.
 - Execution decision: baseline and evaluation gates must run before any fine-tuning claim.
 
